@@ -22,8 +22,8 @@ sudo rosdep init
 rosdep update
 
 # Create a service
-cp ./run.sh /opt/openag_run.sh
-cp ./openag.service /lib/systemd/system/openag.service
+sudo cp ./run.sh /opt/openag_run.
+sudo cp ./openag.service /lib/systemd/system/openag.service
 
 # Create a catkin workspace
 mkdir -p ~/ros_catkin_ws
